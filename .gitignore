@@ -1,0 +1,29 @@
+# Only the widget, its docs and its tests are kept in git.
+# Everything else in this folder (SD card copy, Companion, simulator copy, tools) stays local.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/docs/
+!/backup/
+!/tests/
+/tests/out/
+!/tools/
+/tools/*
+!/tools/get-edgetx-luac.sh
+
+# From the SD card copy: the widget, and the theme files that the tests read.
+!/radio sd card/
+/radio sd card/*
+!/radio sd card/WIDGETS/
+/radio sd card/WIDGETS/*
+!/radio sd card/WIDGETS/FPVDASH/
+!/radio sd card/THEMES/
+/radio sd card/THEMES/**
+!/radio sd card/THEMES/**/
+!/radio sd card/THEMES/*/theme.yml
+
+# Compiled Lua (the radio and the simulator make these) and macOS files.
+*.luac
+.DS_Store
+._*

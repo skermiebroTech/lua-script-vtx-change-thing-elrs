@@ -1,0 +1,17 @@
+---
+summary: 
+   name: "Dark Theme"
+   author: "Justin Wasilenko"
+   info: "A dark theme with high contrast."
+colors: 
+   PRIMARY1: 0x909490
+   PRIMARY2: 0xE0E0E0
+   PRIMARY3: 0xB8BCB8
+   SECONDARY1: 0x282828
+   SECONDARY2: 0xF08838
+   SECONDARY3: 0x000000
+   FOCUS: 0xF03C38
+   EDIT: 0x404440
+   ACTIVE: 0xF8B038
+   WARNING: 0xE83030
+   DISABLED: 0xA07420
